@@ -1,6 +1,6 @@
 package ch9
 
-object StreamStackOverflow extends App {
+object ScalaStreamStackOverflow extends App {
   def aStream(n: Int): Stream[Int] = {
     var s = 0 #:: Stream(1)
     var i = 0

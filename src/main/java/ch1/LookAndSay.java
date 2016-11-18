@@ -3,7 +3,8 @@ package ch1;
 public class LookAndSay {
   public static void main(String... args) {
     String s = "1";
-    for (int line = 0; line < 10; line++) {
+    for (int line = 0; line < 20; line++) {
+      System.out.println(s);
       int length = 1;
       char head = s.charAt(0);
       String result = "";
